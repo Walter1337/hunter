@@ -1,8 +1,3 @@
-# Copyright (c) 2014-2015, Ruslan Baratov
-# All rights reserved.
-
-# !!! DO NOT PLACE HEADER GUARDS HERE !!!
-
 include(hunter_add_version)
 include(hunter_cacheable)
 include(hunter_download)
@@ -14,7 +9,7 @@ hunter_add_version(
     VERSION
     "1.2.8-p3"
     URL
-    "https://github.com/hunter-packages/zlib/archive/v1.2.8-p3.tar.gz"
+    "https://github.com/Walter1337/zlib/archive/v1.2.8-p3.tar.gz"
     SHA1
     573dc28474be47d0c7abc1475a14aa12f0dfcadc
 )

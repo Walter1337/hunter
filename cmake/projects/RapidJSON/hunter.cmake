@@ -15,7 +15,7 @@ hunter_add_version(
     VERSION
     "1.1.0"
     URL
-    "https://github.com/hunter-packages/rapidjson/archive/v1.1.0-p0.tar.gz"
+    "https://github.com/Walter1337/rapidjson/archive/v1.1.0-p0.tar.gz"
     SHA1
     0d97a2d171d5a483338c21b6878f42ea5fe76503
 )

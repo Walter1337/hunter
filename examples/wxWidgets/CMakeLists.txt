@@ -1,7 +1,3 @@
-# Copyright (c) 2014, Ruslan Baratov
-# Copyright (c) 2015, Alexander Lamaison
-# All rights reserved.
-
 cmake_minimum_required(VERSION 3.0)
 
 # Emulate HunterGate:

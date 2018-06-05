@@ -1,8 +1,3 @@
-# Copyright (c) 2013, Ruslan Baratov
-# All rights reserved.
-
-# !!! DO NOT PLACE HEADER GUARDS HERE !!!
-
 include(hunter_add_version)
 include(hunter_cacheable)
 include(hunter_cmake_args)
@@ -49,16 +44,18 @@ hunter_add_version(
     075d0b43980614054b1f1bafd189f863bba6600e
 )
 
+####
 hunter_add_version(
     PACKAGE_NAME
     Boost
     VERSION
     "1.66.0-p0"
     URL
-    "https://github.com/hunter-packages/boost/releases/download/v1.66.0-p0/hunter-1.66.0.7z"
+    "https://github.com/Walter1337/boost/releases/download/v1.66.0-p0/hunter-1.66.0.7z"
     SHA1
     8c9829ce5e8f0b2b582f8ee1a6103c037a154aa3
 )
+####
 
 hunter_add_version(
     PACKAGE_NAME

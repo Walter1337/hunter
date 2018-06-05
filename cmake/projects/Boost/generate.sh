@@ -1,8 +1,5 @@
 #!/bin/bash -e
 
-# Copyright (c) 2013, Ruslan Baratov
-# All rights reserved.
-
 BOOST_LIBS="
     atomic
     chrono

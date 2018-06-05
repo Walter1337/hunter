@@ -1,9 +1,3 @@
-# Copyright (c) 2014-2015, Ruslan Baratov
-# Copyright (c) 2015, Alexander Lamaison
-# All rights reserved.
-
-# !!! DO NOT PLACE HEADER GUARDS HERE !!!
-
 include(hunter_add_version)
 include(hunter_cacheable)
 include(hunter_cmake_args)
@@ -60,7 +54,7 @@ hunter_add_version(
     VERSION
     "1.6.26-p3"
     URL
-    "https://github.com/hunter-packages/libpng/archive/v1.6.26-p3.tar.gz"
+    "https://github.com/Walter1337/libpng/archive/v1.6.26-p3.tar.gz"
     SHA1
     fcaaae43f0950ca362b487a793159c786b264346
 )

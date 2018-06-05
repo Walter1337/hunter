@@ -69,7 +69,7 @@ hunter_add_version(
     VERSION
     "4.0.2-p5"
     URL
-    "https://github.com/hunter-packages/tiff/archive/v4.0.2-p5.tar.gz"
+    "https://github.com/Walter1337/tiff/archive/v4.0.2-p5.tar.gz"
     SHA1
     7bee2843b47c5f9865973b7235e58aa3fb26e1b0
 )

@@ -1,8 +1,3 @@
-# Copyright (c) 2013-2014, Ruslan Baratov
-# All rights reserved.
-
-# !!! DO NOT PLACE HEADER GUARDS HERE !!!
-
 include(hunter_add_version)
 include(hunter_cacheable)
 include(hunter_check_toolchain_definition)
@@ -76,16 +71,18 @@ hunter_add_version(
     07a8861dfb51d3ba983668f0f8daeac49bf3dbc3
 )
 
+####
 hunter_add_version(
     PACKAGE_NAME
     OpenSSL
     VERSION
     "1.1.0h"
     URL
-    "https://github.com/openssl/openssl/archive/OpenSSL_1_1_0h.tar.gz"
+    "https://github.com/Walter1337/openssl/archive/OpenSSL_1_1_0h.tar.gz"
     SHA1
     2168c88516556332ebaf7c31791132025a093c2b
 )
+####
 
 hunter_add_version(
     PACKAGE_NAME

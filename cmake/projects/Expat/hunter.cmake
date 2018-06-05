@@ -1,8 +1,3 @@
-# Copyright (c) 2016, Alexander Lamaison
-# All rights reserved.
-
-# !!! DO NOT PLACE HEADER GUARDS HERE !!!
-
 include(hunter_add_version)
 include(hunter_cacheable)
 include(hunter_cmake_args)
@@ -26,7 +21,7 @@ hunter_add_version(
     VERSION
     "2.1.1"
     URL
-    "https://github.com/alamaison/expat/archive/R_2_1_1-hunter.tar.gz"
+    "https://github.com/Walter1337/expat/archive/R_2_1_1-hunter.tar.gz"
     SHA1
     6b7669be7bc36814c0a7a62cf17342d0a708a51a
 )
