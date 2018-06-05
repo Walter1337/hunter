@@ -1,6 +1,3 @@
-# Copyright (c) 2015, Alexander Lamaison
-# All rights reserved.
-
 # !!! DO NOT PLACE HEADER GUARDS HERE !!!
 
 include(hunter_add_version)
@@ -15,7 +12,7 @@ hunter_add_version(
     VERSION
     "3.0.2"
     URL
-    "https://github.com/alamaison/wxWidgets/archive/3.0.2-hunter-3.tar.gz"
+    "https://github.com/Walter1337/wxWidgets/archive/v3.0.2.tar.gz"
     SHA1
     89abcee23a9957c5309a0848ab6c639cbc93ce1e
 )
@@ -25,7 +22,8 @@ hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cmake_args(
     wxWidgets
     CMAKE_ARGS
-        WXBUILD_SYSTEM_ZLIB=ON
+        
+	WXBUILD_SYSTEM_ZLIB=ON
 	WXBUILD_SYSTEM_JPEG=ON
 	WXBUILD_SYSTEM_PNG=ON
 	WXBUILD_SYSTEM_TIFF=ON
