@@ -32,3 +32,4 @@ _Base
 # Visual Studio
 .vs
 CMakeSettings.json
+gate
