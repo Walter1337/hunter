@@ -51,9 +51,9 @@ hunter_add_version(
     VERSION
     "1.66.0-p0"
     URL
-    "https://github.com/Walter1337/boost/releases/download/v1.66.0-p0/hunter-1.66.0.7z"
+	https://github.com/Walter1337/boost/archive/v1.66.0-p0.tar.gz
     SHA1
-    8c9829ce5e8f0b2b582f8ee1a6103c037a154aa3
+    5fd3fefb457038ff775177099cc9f503085ecc33
 )
 ####
 
