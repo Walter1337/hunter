@@ -15,6 +15,19 @@ hunter_add_version(
 	52d7a5882678a8b0acb6e3808c279d406c2043fb
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    wxWidgets
+    VERSION
+    "3.0.2.1"
+    URL
+    "https://github.com/Walter1337/wxWidgetsCustom/archive/v3.0.2.1.tar.gz"
+    SHA1
+	d1c0e29ea1c93d2cf5827a3b11c2a1fda279249c
+)
+
+
+
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 
 hunter_cmake_args(
