@@ -23,7 +23,7 @@ hunter_add_version(
     URL
     "https://github.com/Walter1337/wxWidgetsCustom/archive/v3.0.2.1.tar.gz"
     SHA1
-	d1c0e29ea1c93d2cf5827a3b11c2a1fda279249c
+	14bb3a094934d904dc4d5104bfab974562efd8db
 )
 
 
