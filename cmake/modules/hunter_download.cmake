@@ -359,9 +359,9 @@ function(hunter_download)
     endif()
   endif()
 
-  file(REMOVE_RECURSE "${HUNTER_PACKAGE_BUILD_DIR}")
-  file(REMOVE "${HUNTER_PACKAGE_HOME_DIR}/CMakeLists.txt")
-  file(REMOVE "${HUNTER_DOWNLOAD_TOOLCHAIN}")
+  ####file(REMOVE_RECURSE "${HUNTER_PACKAGE_BUILD_DIR}")
+  ####file(REMOVE "${HUNTER_PACKAGE_HOME_DIR}/CMakeLists.txt")
+  ####file(REMOVE "${HUNTER_DOWNLOAD_TOOLCHAIN}")
 
   hunter_get_keep_package_sources(PACKAGE "${package}" OUT keep_sources)
 
@@ -616,27 +616,27 @@ function(hunter_download)
 
   hunter_status_debug("Cleaning up build directories...")
 
-  file(REMOVE_RECURSE "${helper_dir_to_remove}")
-
-  file(REMOVE_RECURSE "${HUNTER_PACKAGE_BUILD_DIR}")
-  if(HUNTER_PACKAGE_SCHEME_INSTALL)
-    if(keep_sources)
-      hunter_status_debug(
-          "Keep source directory '${HUNTER_PACKAGE_SOURCE_DIR}'"
-      )
-    else()
-      # Unpacked directory not needed (save some disk space)
-      file(REMOVE_RECURSE "${HUNTER_PACKAGE_SOURCE_DIR}")
-    endif()
-  endif()
-
-  file(REMOVE "${HUNTER_PACKAGE_HOME_DIR}/CMakeLists.txt")
-  file(REMOVE "${HUNTER_DOWNLOAD_TOOLCHAIN}")
-  file(REMOVE "${HUNTER_ARGS_FILE}")
-
-  if(HUNTER_PACKAGE_CACHEABLE)
-    file(REMOVE_RECURSE "${HUNTER_PACKAGE_INSTALL_PREFIX}")
-  endif()
+  ####file(REMOVE_RECURSE "${helper_dir_to_remove}")
+  ####
+  ####file(REMOVE_RECURSE "${HUNTER_PACKAGE_BUILD_DIR}")
+  ####if(HUNTER_PACKAGE_SCHEME_INSTALL)
+  ####  if(keep_sources)
+  ####    hunter_status_debug(
+  ####        "Keep source directory '${HUNTER_PACKAGE_SOURCE_DIR}'"
+  ####    )
+  ####  else()
+  ####    # Unpacked directory not needed (save some disk space)
+  ####    file(REMOVE_RECURSE "${HUNTER_PACKAGE_SOURCE_DIR}")
+  ####  endif()
+  ####endif()
+  ####
+  ####file(REMOVE "${HUNTER_PACKAGE_HOME_DIR}/CMakeLists.txt")
+  ####file(REMOVE "${HUNTER_DOWNLOAD_TOOLCHAIN}")
+  ####file(REMOVE "${HUNTER_ARGS_FILE}")
+  ####
+  ####if(HUNTER_PACKAGE_CACHEABLE)
+  ####  file(REMOVE_RECURSE "${HUNTER_PACKAGE_INSTALL_PREFIX}")
+  ####endif()
 
   hunter_status_debug("Clean up done")
 
